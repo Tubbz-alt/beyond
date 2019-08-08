@@ -1,0 +1,43 @@
+# github.com/coreos/go-oidc v0.0.0-20170711233713-a4973d9a4225
+github.com/coreos/go-oidc
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
+# github.com/dghubble/sessions v0.0.0-20161006202316-26dc61fdb736
+github.com/dghubble/sessions
+# github.com/drewolson/testflight v0.0.0-20160816135644-7040c250b472
+github.com/drewolson/testflight
+# github.com/golang/protobuf v1.3.1
+github.com/golang/protobuf/proto
+# github.com/gorilla/securecookie v1.1.1
+github.com/gorilla/securecookie
+# github.com/gorilla/websocket v0.0.0-20170718202341-a69d9f6de432
+github.com/gorilla/websocket
+# github.com/koding/websocketproxy v0.0.0-20170329211115-7338eeab09f3
+github.com/koding/websocketproxy
+# github.com/patrickmn/go-cache v2.1.0+incompatible
+github.com/patrickmn/go-cache
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/pquerna/cachecontrol v0.0.0-20170706045224-5475d973ea70
+github.com/pquerna/cachecontrol
+github.com/pquerna/cachecontrol/cacheobject
+# github.com/stretchr/testify v0.0.0-20170130113145-4d4bfba8f1d1
+github.com/stretchr/testify/assert
+# golang.org/x/net v0.0.0-20190603091049-60506f45cf65
+golang.org/x/net/context
+golang.org/x/net/context/ctxhttp
+# golang.org/x/oauth2 v0.0.0-20170629190718-cce311a261e6
+golang.org/x/oauth2
+golang.org/x/oauth2/internal
+# google.golang.org/appengine v1.6.1
+google.golang.org/appengine/urlfetch
+google.golang.org/appengine/internal
+google.golang.org/appengine/internal/urlfetch
+google.golang.org/appengine/internal/base
+google.golang.org/appengine/internal/datastore
+google.golang.org/appengine/internal/log
+google.golang.org/appengine/internal/remote_api
+# gopkg.in/square/go-jose.v2 v2.1.2
+gopkg.in/square/go-jose.v2
+gopkg.in/square/go-jose.v2/cipher
+gopkg.in/square/go-jose.v2/json
