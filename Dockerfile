@@ -1,4 +1,4 @@
-FROM golang:1.12.7 AS builder
+FROM golang:1.11.12 AS builder
 WORKDIR /app
 COPY . .
 RUN go build -mod=vendor -o /app/transcend
