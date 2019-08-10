@@ -1,7 +1,16 @@
 language: go
-go: 1.11.x
+go: 1.12.x
 install: true
+env:
+  global:
+    - CC_TEST_REPORTER_ID: 1786f94fc456a49d106c93561ecee884600d748a443e4317e5052fec5894dd36
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+  - go get github.com/axw/gocov/gocov
 script:
-  - go test -v -race -coverprofile=coverage.txt -covermode=atomic
-after_script:
-  - bash <(curl -s https://codecov.io/bash)
+  - go test -race -coverprofile=c.out -covermode=atomic
+after_success:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+
